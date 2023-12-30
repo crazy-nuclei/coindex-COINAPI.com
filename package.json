@@ -1,0 +1,20 @@
+{
+  "name": "coindex",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "command line tool to see cryto prices ",
+  "main": "index.js",
+  "bin": "./bin/coindex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aayush Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.3",
+    "colors": "^1.4.0",
+    "commander": "^11.1.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^9.2.12"
+  }
+}
